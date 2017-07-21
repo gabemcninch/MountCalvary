@@ -1,0 +1,109 @@
+/*
+    Mount Calvary Christian Preschool & Child Care
+    Filename: styles.css
+
+    Author: Gabriel McNinch
+    Date: 7/5/2017
+*/
+
+/* body */
+body {
+    background-color: #bdb98c;
+    max-width: 828px;
+    margin: auto;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: beige;
+    padding: 1em;
+}
+
+/* header */
+header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* site navigation bar */
+nav.sitenavigation {
+    text-align: center;
+    background-color: burlywood;
+    padding: 0.2em;
+}
+nav.sitenavigation p {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+nav.sitenavigation a {
+    color: black;
+    text-decoration: none;
+}
+nav.sitenavigation a:hover {
+    color: beige;
+}
+
+/* article section */
+article h4 {
+    background-color: burlywood;
+    max-width: 85px;
+    padding: 0.5em 1em;
+}
+article h2 {
+    background-color: burlywood;
+    padding: 0.3em;
+}
+article a {
+    color: darkblue;
+}
+article h6 {
+    text-align: center;
+}
+article figure.newsletter {
+    margin-top: 1em;
+}
+article figcaption {
+    text-align: center;
+}
+article div.reminder {
+    float: right;
+    max-width: 650px;
+}
+article dl {
+    margin: 1em 0;
+    font-size: 1em;
+}
+article dt {
+    font-weight: bold;
+}
+article dd {
+    margin-left: 2em;
+}
+article div.staff img {
+    border: 5px solid lightgrey;
+    display: inline;
+}
+article div.staff {
+    display: block;
+    max-width: 700px;
+}
+article h1 {
+    text-align: center;
+}
+article h7 img {
+    border: 5px solid burlywood;
+    margin: 0 9.5em;
+}
+/* tables! */
+td, th {
+    border: 1px solid black;
+    font-size: 1.3em;
+}
+
+/* footer section */
+footer {
+    padding: 0.3em;
+    background-color: burlywood;
+    text-align: center;
+    clear: right;
+}
